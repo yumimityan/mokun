@@ -1,0 +1,176 @@
+@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: absolute;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-power-real {
+  font-size: 50px;
+
+  display: grid;
+
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0;
+
+  text-align: center;
+  letter-spacing: 0;
+
+  color: #4d4d4d;
+  border-radius: 50%;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(white),
+    color-stop(36%, #bcbbbe),
+    color-stop(50%, #9b9b9b),
+    color-stop(64%, #bdbcbf),
+    to(white)
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    white 0%,
+    #bcbbbe 36%,
+    #9b9b9b 50%,
+    #bdbcbf 64%,
+    white 100%
+  );
+  background-image: linear-gradient(
+    180deg,
+    white 0%,
+    #bcbbbe 36%,
+    #9b9b9b 50%,
+    #bdbcbf 64%,
+    white 100%
+  );
+  -webkit-box-shadow: 0 8px 0 #4d4d4d, inset 0 0 5px black,
+    inset 1px 1px 10px white, inset 1px 1px 10px white, inset 1px 1px 10px white,
+    inset 1px 1px 10px white, inset 1px 1px 10px white;
+  box-shadow: 0 8px 0 #4d4d4d, inset 0 0 5px black, inset 1px 1px 10px white,
+    inset 1px 1px 10px white, inset 1px 1px 10px white, inset 1px 1px 10px white,
+    inset 1px 1px 10px white;
+
+  justify-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+a.btn-power-real:before {
+    position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100px;
+  height: 100px;
+
+  content: "";
+
+  opacity: 0.5;
+  border-radius: 50%;
+  background-image: -webkit-linear-gradient(
+    310deg,
+    #9b9b9b 0%,
+    #9b9b9b 0%,
+    #9b9b9b 0%,
+    #9b9b9b 0%,
+    #9b9b9b 0%,
+    white 50%,
+    #bcbbbe 64%,
+    #9b9b9b 100%
+  );
+  background-image: linear-gradient(
+    140deg,
+    #9b9b9b 0%,
+    #9b9b9b 0%,
+    #9b9b9b 0%,
+    #9b9b9b 0%,
+    #9b9b9b 0%,
+    white 50%,
+    #bcbbbe 64%,
+    #9b9b9b 100%
+  );
+}
+
+a.btn-power-real i {
+    position: absolute;
+  z-index: 1;
+
+  text-shadow: -1px 1px 0 white;
+}
+
+a.btn-power-real:hover {
+  -webkit-transform: translate(0, 3px);
+  transform: translate(0, 3px);
+
+  color: #22ac38;
+  -webkit-box-shadow: 0 5px 0 #4d4d4d, inset 0 0 5px black,
+    inset 1px 1px 10px white, inset 1px 1px 10px white, inset 1px 1px 10px white,
+    inset 1px 1px 10px white, inset 1px 1px 10px white;
+  box-shadow: 0 5px 0 #4d4d4d, inset 0 0 5px black, inset 1px 1px 10px white,
+    inset 1px 1px 10px white, inset 1px 1px 10px white, inset 1px 1px 10px white,
+    inset 1px 1px 10px white;
+}
+
+a.btn-power-real:hover i {
+  text-shadow: 0 0 5px #4dba5e, 0 0 5px #4dba5e, 0 0 5px #4dba5e;
+}
+
+
+#container
+{
+  height: 400px;
+  position: relative;
+  width: 400px;
+}
+.q
+{
+  height: 100%;
+  width: 100%;
+}
+#controls
+{
+  bottom: 0;
+  left: 170%;
+  position: absolute;
+
+}
+a{
+    margin:0 auto;
+    display:block;
+}
